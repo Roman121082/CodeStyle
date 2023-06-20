@@ -1,0 +1,33 @@
+.wrapper {
+  height: 100vh;
+  background-color: rgb(232, 224, 210);
+}
+
+.box-button {
+  width: 250px;
+  padding-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  font-size: 24px;
+  color: #fff;
+  background-color: rgb(75, 178, 71);
+  transition: all 0.5s ease;
+}
+
+.button+.button {
+  margin-top: 35px;
+}
+
+.button:hover {
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, .6);
+  background-color: rgb(57, 161, 53);
+}
